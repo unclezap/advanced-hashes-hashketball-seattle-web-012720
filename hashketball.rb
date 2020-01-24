@@ -56,7 +56,7 @@ b_nets = [
     "Kemba Walker"
     ]
   c_numbers = [4,0,2,8,33]
-  c_shoes = [8,16,14,15,15]
+  c_shoes = [18,16,14,15,15]
   c_points = [10,12,24,33,6]
   c_rebounds = [1,4,12,3,12]
   c_assists = [1,7,12,2,12]
