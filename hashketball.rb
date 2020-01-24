@@ -364,7 +364,7 @@ def long_name_steals_a_ton
   end
 
   if thief = long_name
-    return true
+    return ["dafsdf"]
   else
     return false
   end
