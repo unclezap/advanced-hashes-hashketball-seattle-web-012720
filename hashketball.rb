@@ -100,7 +100,10 @@ return game_hash
 end
 
 def num_points_scored(name)
-  
-  return 10
+  i = 0
+  c_players = []
+  c_players = game_hash[away][players]
+  puts c_players
+  return 
 
 end
