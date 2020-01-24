@@ -197,5 +197,6 @@ def player_stats(name)
     end
    h += 1
   end
-  delete line(players)
+  delete line(:player_name)
+  return line
 end
