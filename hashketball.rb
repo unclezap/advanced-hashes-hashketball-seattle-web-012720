@@ -309,3 +309,36 @@ def player_with_longest_name
   end
 return long_name
 end
+
+def long_name_steals_a_ton
+game_hash
+  b_high_st = 0
+  b_index = 0
+  c_high_st = 0
+  c_index = 0
+  thief = ""
+  
+  i = 0
+  while i < 5
+    if b_high_st < game_hash[:home][:players][i][:steals]
+      b_high_st = game_hash[:home][:players][i][:steals]
+      b_index = i
+    end
+    i +=1
+  end
+  k = 0
+  while k < 5
+    if c_high_st < game_hash[:away][:players][k][:steals]
+      c_high_st = game_hash[:away][:players][k][:steals]
+      c_index = k
+    end
+    k +=1
+  end
+  if b_high_st > c_high_pt
+    thief = game_hash[:home][:players][b_index][:player_name]
+  else
+    thief = game_hash[:away][:players][c_index][:player_name]
+  end  
+
+  
+  
