@@ -140,3 +140,8 @@ def shoe_size(name)
   end
   
 end
+
+team_colors(team)
+k = 0
+
+end
