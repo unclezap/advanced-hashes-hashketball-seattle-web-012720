@@ -310,7 +310,7 @@ def player_with_longest_name
 return long_name
 end
 
-def long_name_steals_a_ton
+def long_name_steals_a_ton?
   game_hash
   b_high_st = 0
   b_index = 0
@@ -364,7 +364,7 @@ def long_name_steals_a_ton
   end
 
   if thief = long_name
-    return ["dafsdf"]
+    return true
   else
     return false
   end
