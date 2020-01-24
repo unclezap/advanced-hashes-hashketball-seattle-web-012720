@@ -101,9 +101,9 @@ def game_hash
       colors: {
         
       },
-      players: {
+      players: c_array
         
-      }
+      
     },
     home:{
       team_name: {
@@ -112,7 +112,7 @@ def game_hash
       colors: {
         
       },
-      players: 
+      players: b_array
       
     }
   }
