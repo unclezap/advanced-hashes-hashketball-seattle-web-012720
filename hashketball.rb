@@ -100,10 +100,7 @@ return game_hash
 end
 
 def num_points_scored(name)
-  game_hash
-  ppg_set = game_hash[home][players][points]
   
-  puts ppg_set
   return 10
 
 end
