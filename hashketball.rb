@@ -179,3 +179,11 @@ def player_numbers(jersey_team)
   end
   return array
 end
+
+def player_stats(name)
+  game_hash
+  k = 0
+  while k < 5
+    if name == game_hash[:home][players][k][]
+  end
+end
