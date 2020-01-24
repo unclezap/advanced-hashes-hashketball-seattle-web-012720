@@ -144,8 +144,10 @@ end
 team_colors(team)
   game_hash
   k = 0
-  while k < 9
-    if team == game_hash[k]
-    
+  while k < 2
+    if team == game_hash[k][:team_name]
+      return game_hash[k][:colors]
+    end
+    k += 1
   end
 end
