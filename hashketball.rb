@@ -188,12 +188,12 @@ def player_stats(name)
     i = 1
     stats = game_hash[:home][:players][k]
     if name == game_hash[:home][:players][k][:player_name]
-      while i =<stats.length
+      while i <= stats.length
         return_stats[stats][:home][:players][k][i]
         i +=1
       end
     else if
-      while i =<stats.length
+      while i <= stats.length
         return_stats[stats][:away][:players][k][i]
         i +=1
       end
