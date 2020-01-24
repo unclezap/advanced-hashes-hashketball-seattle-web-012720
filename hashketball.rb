@@ -93,7 +93,8 @@ def game_hash
      k += 1
      b_array = b_array.push(b_hash_sub)
   end
-
+  
+  game_hash = {}
   game_hash = {home{}:,away:{}}
 
 puts game_hash
