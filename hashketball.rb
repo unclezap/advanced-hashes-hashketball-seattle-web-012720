@@ -185,6 +185,6 @@ def player_stats(name)
   k = 0
   while k < 5
     if name == game_hash[:home][:players][k][:player_name]
-      return game_hash[:home][:players][k]
+      stats = game_hash[:home][:players][k]
   end
 end
