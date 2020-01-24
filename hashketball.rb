@@ -353,6 +353,7 @@ long_name = ""
     end
     i +=1
   end
+  
   k = 0
   while k < 5
     float = game_hash[:away][:players][k][:player_name]
