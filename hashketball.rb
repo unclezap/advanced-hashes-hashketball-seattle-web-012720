@@ -95,24 +95,24 @@ def game_hash
   end
 
   game_hash = {
-    away:{
-      team_name: {
-      },
-      colors: {
-        
-      },
-      players: c_array
-        
-      
-    },
     home:{
       team_name: {
-        
       },
       colors: {
         
       },
       players: b_array
+        
+      
+    },
+    away:{
+      team_name: {
+        
+      },
+      colors: {
+        
+      },
+      players: c_array
       
     }
   }
