@@ -111,7 +111,7 @@ def game_hash
         "Charlotte Hornets"
       ,
       colors: [
-        
+        "Turquoise", "Purple"
       ],
       players: c_array
       
