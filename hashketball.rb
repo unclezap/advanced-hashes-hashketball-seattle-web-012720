@@ -102,6 +102,8 @@ end
 num_points_scored(name)
   players = []
   players = game_hash[away][players]
-  if players.key?
+  if players.key?() == nil
+    
+  end
 
 end
