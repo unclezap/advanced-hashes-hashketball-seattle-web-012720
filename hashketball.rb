@@ -336,7 +336,7 @@ def long_name_steals_a_ton?
     k +=1
   end
   
-  if b_high_st > c_high_pt
+  if b_high_st > c_high_st
     thief = game_hash[:home][:players][b_index][:player_name]
   else
     thief = game_hash[:away][:players][c_index][:player_name]
