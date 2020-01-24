@@ -158,3 +158,9 @@ game_hash
   team_n = team_n.push(game_hash[:away][:team_name])
   return team_n
 end
+
+def player_numbers(jersey_team)
+  game_hash
+  k = 0
+  if jersey_name == game_hash[:home][:team_name]
+    game_hash[:home][players]
