@@ -95,7 +95,7 @@ def game_hash
   end
   
   
-  game_hash = {home:{},away:{}}
+  game_hash = {home:{team_name: "Brooklyn Nets",colors: ["Black", "White",players:},away:{team_name: "Charlotte Hornets",colors:[""]}}
 
 puts game_hash
 return game_hash
