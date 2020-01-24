@@ -172,7 +172,7 @@ def player_numbers(jersey_team)
     end
   else
     while k < 5
-      jersey = game_hash[:home][:players][k][:number]
+      jersey = game_hash[:away][:players][k][:number]
       array.push(jersey)
       k += 1
     end
