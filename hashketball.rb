@@ -104,21 +104,18 @@ def num_points_scored(name)
  
  k = 0
  while k < 5
-   query_name = game_hash[:away][:players][k][:player_name]
-   if name == query_name
-     query_points = game_hash[:away][:players][k][:points]
-     return query_points
+   if name == game_hash[:away][:players][k][:player_name]
+     return game_hash[:away][:players][k][:points]
     end
    k += 1 
  end
  
  h = 0
  while h < 5
-   query_name = "asdf"
    if name == game_hash[:home][:players][h][:player_name]
-     query_points = game_hash[:home][:players][h][:points]
-     return query_points
+     return game_hash[:home][:players][h][:points]
     end
    h += 1
   end
+  
 end
