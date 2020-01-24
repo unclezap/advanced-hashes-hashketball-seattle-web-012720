@@ -153,6 +153,7 @@ end
 
 def team_names
   game_hash
+  team_n = {}
   team_n = game_hash[:home][:team_name]
   team_n = team_n(games_hash[:away][:team_name])
   return team_n
