@@ -278,7 +278,7 @@ game_hash
     c_score = c_score + game_hash[:away][:players][k][:points]
     k +=1
   end
-  if b_high_pt > c_high_pt
+  if b_score > c_score
     return "Brooklyn Nets"
   else
     return "Charlotte Hornets"
