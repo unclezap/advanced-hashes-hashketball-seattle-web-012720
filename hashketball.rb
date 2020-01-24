@@ -96,25 +96,22 @@ def game_hash
 
   game_hash = {
     home:{
-      team_name: 
+      {team_name: 
         "Brooklyn Nets"
-      ,
-      colors: [
+      },
+      {colors: [
         "Black", "White"
-      ],
-      players: b_array
-        
-      
+      ]},
+      {players: b_array}
     },
     away:{
-      team_name: 
+      {team_name: 
         "Charlotte Hornets"
-      ,
-      colors: [
+      },
+      {colors: [
         "Turquoise", "Purple"
-      ],
-      players: c_array
-      
+      ]},
+      {players: c_array}
     }
   }
 
