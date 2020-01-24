@@ -96,15 +96,14 @@ b_nets = [
   
   game_hash = {home:{team_name: "Brooklyn Nets",colors: ["Black", "White"],players:b_array},away:{team_name: "Charlotte Hornets",colors:["Turquoise", "Purple"],players:c_array}}
 
-i = 0
-  c_players = []
-  c_players = game_hash[away][players]
-  puts c_players
 return game_hash
 end
 
 def num_points_scored(name)
   game_hash
+  ppg_set = game_hash
+  
+  puts 
   return 10
 
 end
