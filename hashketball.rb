@@ -341,5 +341,8 @@ game_hash
   end  
 
   if thief = player_with_longest_name
+    return true
+  else
+    return false
   end
 end  
