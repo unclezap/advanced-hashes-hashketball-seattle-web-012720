@@ -117,4 +117,7 @@ def num_points_scored(name)
    if name == query_name
      query_points = game_hash[:away][:players][h][:points]
      return query_points
+    end
    h += 1
+  end
+end
