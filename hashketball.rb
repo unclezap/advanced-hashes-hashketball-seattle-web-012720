@@ -125,8 +125,8 @@ def shoe_size(name)
  
  k = 0
  while k < 5
-   if name == game_hash[:away][:players][k][:shoe]
-     return game_hash[:away][:players][k][:points]
+   if name == game_hash[:away][:players][k][:player_name]
+     return game_hash[:away][:players][k][:shoe]
     end
    k += 1 
  end
@@ -134,7 +134,7 @@ def shoe_size(name)
  h = 0
  while h < 5
    if name == game_hash[:home][:players][h][:player_name]
-     return game_hash[:home][:players][h][:points]
+     return game_hash[:home][:players][h][:shoe]
     end
    h += 1
   end
