@@ -232,3 +232,33 @@ def big_shoe_rebounds
   end
 end
 
+def most_points_scored
+game_hash
+  b_high_pt = 0
+  b_index = 0
+  c_high_pt = 0
+  c_index = 0
+  
+  i = 0
+  while i < 5
+    if b_high_pt < game_hash[:home][:players][i][:shoe]
+      b_biggest = game_hash[:home][:players][i][:shoe]
+      b_location = i
+    end
+    i +=1
+  end
+  k = 0
+  while k < 5
+    if c_biggest < game_hash[:away][:players][k][:shoe]
+      curr_biggest = game_hash[:away][:players][k][:shoe]
+      c_location = k
+    end
+    k +=1
+  end
+  if b_biggest > c_biggest
+    return game_hash[:home][:players][b_location][:rebounds]
+  else
+    return game_hash[:away][:players][c_location][:rebounds]
+  end  
+
+end
