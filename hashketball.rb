@@ -170,4 +170,5 @@ def player_numbers(jersey_team)
       k +=1
     end
   end
+  return array
 end
