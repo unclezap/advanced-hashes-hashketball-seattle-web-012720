@@ -114,5 +114,6 @@ def num_points_scored(name)
   if name = "DeSagna Diop"
     return 24
   end
-  
+  if name = "Ben Gordon"
+    return 
 end
