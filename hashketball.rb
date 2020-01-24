@@ -197,5 +197,5 @@ def player_stats(name)
     end
    h += 1
   end
-  delete line[]
+  delete line(players)
 end
