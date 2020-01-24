@@ -202,4 +202,14 @@ def player_stats(name)
   return line
 end
 
-def 
+def big_shoe_rebounds
+  game_hash
+  curr_biggest = [0,0]
+  i = 0
+  while i < 5
+    if curr_biggest[0] < game_hash[:home][:players][i][shoe]
+      
+    end
+  
+
+end
