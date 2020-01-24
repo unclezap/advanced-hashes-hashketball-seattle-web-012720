@@ -226,6 +226,8 @@ def big_shoe_rebounds
     k +=1
   end
   if b_biggest > c_biggest
-  
+    return game_hash[:home][:players][b_location][:rebounds]
+  else
+    return game_hash[:away][:players][c_location][:rebounds]
   end
 end
