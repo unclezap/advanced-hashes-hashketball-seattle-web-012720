@@ -115,8 +115,8 @@ def num_points_scored(name)
     end
    k += 1 
  end
-
-return game_hash[:away][:players][0][:player_name]
+h = 0
+return game_hash[:away][:players][h][:player_name]
 
   if name == "Bismack Biyombo"
     return 12
