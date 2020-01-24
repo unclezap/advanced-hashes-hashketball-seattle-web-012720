@@ -100,11 +100,7 @@ return game_hash
 end
 
 def num_points_scored(name)
-  x = 10
-  point_hash = {}
-  point_hash = game_hash
-  x = point_hash[:home][:players][:points]
-  puts point_hash[:home][:players][:points][0]
+  
   if name = "Jeff Adrien"
     return 10
   end
