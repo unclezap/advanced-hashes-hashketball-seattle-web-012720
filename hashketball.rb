@@ -2,6 +2,52 @@
 
 def game_hash
 
+b_nets = [
+    "Alan Anderson",
+    "Reggie Evans",
+    "Brook Lopez",
+    "Mason Plumlee",
+    "Jason Terry"]
+  b_numbers = [0,30,11,1,31]
+  b_shoes = [16,14,17,19,15]
+  b_points = [22,12,17,26,19]
+  b_rebounds = [12,12,19,11,2]
+  b_assists = [12,12,10,6,2]
+  b_steals = [3,12,3,3,4]
+  b_blocks = [1,12,1,8,11]
+  b_slams = [1,7,15,5,1]
+  b_keys = {player_name: "",number: 0,shoe: 0,points: 0,rebounds: 0, assists: 0, steals: 0, blocks: 0, slam_dunks: 0}
+  
+  k = 0
+  b_hash_sub = {}
+  b_array = []
+
+  while k<5
+     b_hash_sub = {}
+     one = b_keys.keys[0]
+     two = b_keys.keys[1]
+     three = b_keys.keys[2]
+     four = b_keys.keys[3]
+     five = b_keys.keys[4]
+     six = b_keys.keys[5]
+     seven = b_keys.keys[6]
+     eight = b_keys.keys[7]
+     nine = b_keys.keys[8]
+     
+     b_hash_sub[one] = b_nets[i]
+     b_hash_sub[two] = b_numbers[i]
+     b_hash_sub[three] = b_shoes[i]
+     b_hash_sub[four] = b_points[i]
+     b_hash_sub[five] = b_rebounds[i]
+     b_hash_sub[six] = b_assists[i]
+     b_hash_sub[seven] = b_steals[i]
+     b_hash_sub[eight] = b_blocks[i]
+     b_hash_sub[nine] = b_slams[i]
+     k += 1
+     b_array = b_array.push(b_hash_sub)
+  end
+  
+
   c_hornets = [
     "Jeff Adrien",
     "Bismack Biyombo",
@@ -47,53 +93,6 @@ def game_hash
      i += 1
      c_array = c_array.push(c_hash_sub)
   end
-
-
-  b_nets = [
-    "Alan Anderson",
-    "Reggie Evans",
-    "Brook Lopez",
-    "Mason Plumlee",
-    "Jason Terry"]
-  b_numbers = [0,30,11,1,31]
-  b_shoes = [16,14,17,19,15]
-  b_points = [22,12,17,26,19]
-  b_rebounds = [12,12,19,11,2]
-  b_assists = [12,12,10,6,2]
-  b_steals = [3,12,3,3,4]
-  b_blocks = [1,12,1,8,11]
-  b_slams = [1,7,15,5,1]
-  b_keys = {player_name: "",number: 0,shoe: 0,points: 0,rebounds: 0, assists: 0, steals: 0, blocks: 0, slam_dunks: 0}
-  
-  k = 0
-  b_hash_sub = {}
-  b_array = []
-
-  while k<5
-     b_hash_sub = {}
-     one = b_keys.keys[0]
-     two = b_keys.keys[1]
-     three = b_keys.keys[2]
-     four = b_keys.keys[3]
-     five = b_keys.keys[4]
-     six = b_keys.keys[5]
-     seven = b_keys.keys[6]
-     eight = b_keys.keys[7]
-     nine = b_keys.keys[8]
-     
-     b_hash_sub[one] = b_nets[i]
-     b_hash_sub[two] = b_numbers[i]
-     b_hash_sub[three] = b_shoes[i]
-     b_hash_sub[four] = b_points[i]
-     b_hash_sub[five] = b_rebounds[i]
-     b_hash_sub[six] = b_assists[i]
-     b_hash_sub[seven] = b_steals[i]
-     b_hash_sub[eight] = b_blocks[i]
-     b_hash_sub[nine] = b_slams[i]
-     k += 1
-     b_array = b_array.push(b_hash_sub)
-  end
-  
   
   game_hash = {home:{team_name: "Brooklyn Nets",colors: ["Black", "White"],players:b_array},away:{team_name: "Charlotte Hornets",colors:["Turquoise", "Purple"],players:c_array}}
 
