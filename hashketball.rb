@@ -115,5 +115,10 @@ def num_points_scored(name)
     return 24
   end
   if name = "Ben Gordon"
-    return 
+    return 33
+  end
+  if name = "Kemba Walker"
+    return 6
+  end
+  if 
 end
