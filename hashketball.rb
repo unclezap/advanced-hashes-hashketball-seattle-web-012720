@@ -219,8 +219,8 @@ def big_shoe_rebounds
   end
   k = 0
   while k < 5
-    if c_biggest < game_hash[:away][players][k][:shoe]
-      curr_biggest = game_hash[:away][players][k][:shoe]
+    if c_biggest < game_hash[:away][:players][k][:shoe]
+      curr_biggest = game_hash[:away][:players][k][:shoe]
       c_location = k
     end
     k +=1
