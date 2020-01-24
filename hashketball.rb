@@ -114,8 +114,8 @@ def num_points_scored(name)
  
  h = 0
  while h < 5
-   query_name = 
-   if name == query_name
+   query_name = "asdf"
+   if name == game_hash[:home][:players][h][:player_name]
      query_points = game_hash[:home][:players][h][:points]
      return query_points
     end
