@@ -101,7 +101,20 @@ end
 
 def num_points_scored(name)
  game_hash
- return game_hash[:home][:players][0][:points]
+ i = 0
+ while i < 5
+   if game_hash[:home][:players][i][:player_name] == name
+     return game_hash[:home][:players][i][:points]
+    end
+   i += 1
+ end
+ k = 0
+ while k < 0
+   if game_hash[:away][:players][i][:player_name] == name
+     return game_hash[:away][:players][i][:points]
+    end
+   k += 1 
+ end
   if name =="Jeff Adrien"
     return 10
   end
