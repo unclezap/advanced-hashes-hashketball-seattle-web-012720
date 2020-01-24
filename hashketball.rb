@@ -274,6 +274,7 @@ game_hash
     i +=1
   end
   k = 0
+  while k < 5
     c_score = c_score + game_hash[:away][:players][k][:points]
     k +=1
   end
