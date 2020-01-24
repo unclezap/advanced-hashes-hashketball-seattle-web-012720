@@ -113,7 +113,7 @@ def num_points_scored(name)
 h = 0
 query_name = game_hash[:away][:players][h][:player_name]
 if name == query_name
-  return query_name
+  query_points = game_hash[:away][:players][h][:points]
 end
 return "backstop"
   if name == "Bismack Biyombo"
