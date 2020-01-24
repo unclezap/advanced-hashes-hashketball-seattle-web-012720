@@ -185,6 +185,11 @@ def player_stats(name)
   k = 0
   while k < 5
     if name == game_hash[:home][:players][k][:player_name]
+      i = 1
       stats = game_hash[:home][:players][k]
+      while i <stats.length
+        
+        i +=1
+      end
   end
 end
