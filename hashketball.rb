@@ -100,7 +100,7 @@ def game_hash
         "Brooklyn Nets"
       ,
       colors: {
-        
+        "Black", "White"
       },
       players: b_array
         
