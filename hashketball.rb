@@ -342,6 +342,8 @@ def long_name_steals_a_ton
     thief = game_hash[:away][:players][c_index][:player_name]
   end  
 
+player_with_longest_name
+
   if thief = player_with_longest_name
     return true
   else
