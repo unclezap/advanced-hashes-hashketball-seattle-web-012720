@@ -1,6 +1,7 @@
 # Write your code here!
 
 def game_hash
+
   c_hornets = [
     "Jeff Adrien",
     "Bismack Biyombo",
@@ -89,7 +90,7 @@ def game_hash
      b_hash_sub[seven] = b_steals[i]
      b_hash_sub[eight] = b_blocks[i]
      b_hash_sub[nine] = b_slams[i]
-     i += 1
+     k += 1
      b_array = b_array.push(b_hash_sub)
   end
 
