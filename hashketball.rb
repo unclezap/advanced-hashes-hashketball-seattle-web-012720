@@ -101,7 +101,7 @@ end
 
 def num_points_scored(name)
  game_hash
- return game_hash
+ return game_hash[:home][:players]
   if name =="Jeff Adrien"
     return 10
   end
