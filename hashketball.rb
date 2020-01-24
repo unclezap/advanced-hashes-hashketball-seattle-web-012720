@@ -120,5 +120,14 @@ def num_points_scored(name)
   if name = "Kemba Walker"
     return 6
   end
-  if 
+  if name = "Alan Anderson"
+    return 22
+  end
+  if name = "Reggie Evans"
+    return 12
+  end
+  if name = "Brook Lopez"
+    return 17
+  end
+  
 end
