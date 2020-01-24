@@ -106,9 +106,9 @@ def game_hash
       
     },
     away:{
-      team_name: {
-        
-      },
+      team_name: 
+        ""
+      ,
       colors: {
         
       },
