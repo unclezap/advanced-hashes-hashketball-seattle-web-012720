@@ -96,10 +96,11 @@ b_nets = [
   
   game_hash = {home:{team_name: "Brooklyn Nets",colors: ["Black", "White"],players:b_array},away:{team_name: "Charlotte Hornets",colors:["Turquoise", "Purple"],players:c_array}}
 
-puts "!!!!!!!"
-puts b_array
-puts "VVVVVV C   ^^^^^B"
-puts c_array
 return game_hash
 end
 
+num_points_scored(name)
+
+  game_hash
+
+end
