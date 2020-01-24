@@ -101,6 +101,6 @@ end
 
 num_points_scored(name)
 
-  game_hash[]
+  game_hash[away][players][points]
 
 end
