@@ -262,3 +262,25 @@ game_hash
   end  
 
 end
+
+def winning_team
+game_hash
+  b_score = 0
+  c_score = 0
+  
+  i = 0
+  while i < 5
+    b_score = b_score + game_hash[:home][:players][i][:points]
+    i +=1
+  end
+  k = 0
+    c_score = c_score + game_hash[:away][:players][k][:points]
+    k +=1
+  end
+  if b_high_pt > c_high_pt
+    return "Brooklyn Nets"
+  else
+    return "Charlotte Hornets"
+  end  
+
+end
