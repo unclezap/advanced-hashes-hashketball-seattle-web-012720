@@ -34,15 +34,15 @@ b_nets = [
      eight = b_keys.keys[7]
      nine = b_keys.keys[8]
      
-     b_hash_sub[one] = b_nets[i]
-     b_hash_sub[two] = b_numbers[i]
-     b_hash_sub[three] = b_shoes[i]
-     b_hash_sub[four] = b_points[i]
-     b_hash_sub[five] = b_rebounds[i]
-     b_hash_sub[six] = b_assists[i]
-     b_hash_sub[seven] = b_steals[i]
-     b_hash_sub[eight] = b_blocks[i]
-     b_hash_sub[nine] = b_slams[i]
+     b_hash_sub[one] = b_nets[k]
+     b_hash_sub[two] = b_numbers[k]
+     b_hash_sub[three] = b_shoes[k]
+     b_hash_sub[four] = b_points[k]
+     b_hash_sub[five] = b_rebounds[k]
+     b_hash_sub[six] = b_assists[k]
+     b_hash_sub[seven] = b_steals[k]
+     b_hash_sub[eight] = b_blocks[k]
+     b_hash_sub[nine] = b_slams[k]
      k += 1
      b_array = b_array.push(b_hash_sub)
   end
