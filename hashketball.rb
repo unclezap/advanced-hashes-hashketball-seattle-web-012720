@@ -255,10 +255,10 @@ game_hash
     end
     k +=1
   end
-  if b_biggest > c_biggest
-    return game_hash[:home][:players][b_location][:rebounds]
+  if b_high_pt > c_high_pt
+    return game_hash[:home][:players][b_index][:player_name]
   else
-    return game_hash[:away][:players][c_location][:rebounds]
+    return game_hash[:away][:players][c_location][:]
   end  
 
 end
