@@ -141,7 +141,7 @@ def shoe_size(name)
   
 end
 
-team_colors(team)
+def team_colors(team)
   game_hash
   k = 0
   while k < 2
