@@ -185,7 +185,7 @@ def player_stats(name)
   k = 0
   while k < 5
    if name == game_hash[:away][:players][k][:player_name]
-     line game_hash[:away][:players][k]
+     line = game_hash[:away][:players][k]
     end
    k += 1 
   end
@@ -197,4 +197,5 @@ def player_stats(name)
     end
    h += 1
   end
+  delete line[]
 end
