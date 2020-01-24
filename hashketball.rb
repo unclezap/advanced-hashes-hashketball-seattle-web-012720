@@ -102,21 +102,24 @@ end
 def num_points_scored(name)
  game_hash
  
-# k = 0
-# while k < 0
- #  query_name = game_hash[:away][:players][k][:player_name]
-#   if name == query_name
-    # return game_hash[:away][:players][k][:points]
-   # end
-  # k += 1 
- #end
-h = 0
-query_name = game_hash[:away][:players][h][:player_name]
-if name == query_name
-  query_points = game_hash[:away][:players][h][:points]
-  return query_points
+ k = 0
+ while k < 0
+   query_name = game_hash[:away][:players][k][:player_name]
+   if name == query_name
+     query_points = game_hash[:away][:players][k][:points]
+     return query_points
+    end
+   k += 1 
+ end
+ h = 0
+ while h < 0
+   query_name = game_hash[:away][:players][h][:player_name]
+   if name == query_name
+     query_points = game_hash[:away][:players][h][:points]
+     return query_points
+   h += 1
 end
-return "backstop"
+
   if name == "Bismack Biyombo"
     return 12
   end
