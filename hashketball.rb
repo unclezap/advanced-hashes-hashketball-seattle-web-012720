@@ -99,7 +99,7 @@ b_nets = [
 return game_hash
 end
 
-num_points_scored(name)
+def num_points_scored(name)
   i = 0
   c_players = []
   c_players = game_hash[away][players]
