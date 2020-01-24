@@ -129,5 +129,10 @@ def num_points_scored(name)
   if name = "Brook Lopez"
     return 17
   end
-  
+  if name = "Mason Plumlee"
+    return 26
+  end
+  if name = "Jason Terry"
+    return 19
+  end
 end
