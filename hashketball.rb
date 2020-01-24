@@ -143,5 +143,5 @@ end
 
 def team_colors(team)
   game_hash
-  return game_hash[:home][:colors]
+  return game_hash[0]
 end
