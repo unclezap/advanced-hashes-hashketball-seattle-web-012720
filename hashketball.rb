@@ -286,3 +286,26 @@ game_hash
 
 end
 
+def player_with_longest_name
+  game_hash
+  long_name = ""
+  float = ""
+  
+  i = 0
+  while i < 5
+    float = game_hash[:home][:players][i][:player_name]
+    if long_name.length < float.length
+      long_name = game_hash[:home][:players][i][:player_name]
+    end
+    i +=1
+  end
+  k = 0
+  while k < 5
+    float = game_hash[:away][:players][k][:player_name]
+    if long_name.length < float.length
+      long_name = game_hash[:away][:players][k][player_name]
+    end
+    k +=1
+  end
+return long_name
+end
