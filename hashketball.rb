@@ -100,7 +100,8 @@ return game_hash
 end
 
 num_points_scored(name)
-
-  game_hash[away][players][points]
+  players = []
+  players = game_hash[away][players]
+  if players.key?
 
 end
