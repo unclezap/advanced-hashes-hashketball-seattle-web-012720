@@ -340,5 +340,6 @@ game_hash
     thief = game_hash[:away][:players][c_index][:player_name]
   end  
 
-  
-  
+  if thief = player_with_longest_name
+  end
+end  
