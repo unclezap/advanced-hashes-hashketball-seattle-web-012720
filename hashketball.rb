@@ -342,7 +342,7 @@ def long_name_steals_a_ton
     thief = game_hash[:away][:players][c_index][:player_name]
    end
 
-long_name = ""
+  long_name = ""
   float = ""
   
   i = 0
