@@ -151,7 +151,7 @@ def team_colors(team)
   end
 end
 
-def team_names(hash)
+def team_names
 game_hash
   team_n = []
   team_n = game_hash[:home][:team_name]
