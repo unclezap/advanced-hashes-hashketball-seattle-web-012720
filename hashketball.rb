@@ -94,26 +94,7 @@ def game_hash
      b_array = b_array.push(b_hash_sub)
   end
 
-  game_hash = {
-    home:{
-      {team_name: 
-        "Brooklyn Nets"
-      },
-      {colors: [
-        "Black", "White"
-      ]},
-      {players: b_array}
-    },
-    away:{
-      {team_name: 
-        "Charlotte Hornets"
-      },
-      {colors: [
-        "Turquoise", "Purple"
-      ]},
-      {players: c_array}
-    }
-  }
+  game_hash = {home{}:,away:{}}
 
 puts game_hash
 return game_hash
