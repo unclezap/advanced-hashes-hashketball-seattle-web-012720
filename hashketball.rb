@@ -103,11 +103,7 @@ num_points_scored(name)
   i = 0
   c_players = []
   c_players = game_hash[away][players]
-  
-  while i < c_players.keys.length
-    
-    if c_players.key?() == nil
-    
-  end
+  puts c_players
+  return c_players
 
 end
