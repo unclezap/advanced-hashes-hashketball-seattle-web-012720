@@ -33,7 +33,7 @@ def game_hash
      six = c_keys.keys[5]
      seven = c_keys.keys[6]
      eight = c_keys.keys[7]
-     nine = c_keys.keys[9]
+     nine = c_keys.keys[8]
      
      c_hash_sub[one] = c_hornets[i]
      c_hash_sub[two] = c_numbers[i]
@@ -79,7 +79,7 @@ def game_hash
      six = b_keys.keys[5]
      seven = b_keys.keys[6]
      eight = b_keys.keys[7]
-     nine = b_keys.keys[9]
+     nine = b_keys.keys[8]
      
      b_hash_sub[one] = b_nets[i]
      b_hash_sub[two] = b_numbers[i]
