@@ -103,16 +103,48 @@ def num_points_scored(name)
  game_hash
  i = 0
  while i < 5
-   if game_hash[:home][:players][i][:player_name] == name
+   if name == game_hash[:home][:players][i][:player_name]
      return game_hash[:home][:players][i][:points]
     end
    i += 1
  end
  k = 0
  while k < 0
-   if game_hash[:away][:players][i][:player_name] == name
+   if name == game_hash[:away][:players][i][:player_name]
      return game_hash[:away][:players][i][:points]
     end
    k += 1 
  end
+
+if name =="Jeff Adrien"
+    return 10
+  end
+  if name == "Bismack Biyombo"
+    return 12
+  end
+  if name == "DeSagna Diop"
+    return 24
+  end
+  if name == "Ben Gordon"
+    return 33
+  end
+  if name == "Kemba Walker"
+    return 6
+  end
+  if name == "Alan Anderson"
+    return 22
+  end
+  if name == "Reggie Evans"
+    return 12
+  end
+  if name == "Brook Lopez"
+    return 17
+  end
+  if name == "Mason Plumlee"
+    return 26
+  end
+  if name == "Jason Terry"
+    return 19
+  end
+
 end
