@@ -98,6 +98,7 @@ def game_hash
   game_hash = {home:{team_name: "Brooklyn Nets",colors: ["Black", "White"],players:b_array},away:{team_name: "Charlotte Hornets",colors:["Turquoise", "Purple"],players:c_array}}
 
 puts b_array
+puts c_array
 return game_hash
 end
 
