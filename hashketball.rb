@@ -99,9 +99,9 @@ def game_hash
       team_name: 
         "Brooklyn Nets"
       ,
-      colors: {
+      colors: [
         "Black", "White"
-      },
+      ],
       players: b_array
         
       
@@ -110,9 +110,9 @@ def game_hash
       team_name: 
         "Charlotte Hornets"
       ,
-      colors: {
+      colors: [
         
-      },
+      ],
       players: c_array
       
     }
