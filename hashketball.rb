@@ -183,13 +183,21 @@ end
 def player_stats(name)
   game_hash
   k = 0
+  return_stats = {}
   while k < 5
+    i = 1
+    stats = game_hash[:home][:players][k]
     if name == game_hash[:home][:players][k][:player_name]
-      i = 1
-      stats = game_hash[:home][:players][k]
-      while i <stats.length
-        
+      while i =<stats.length
+        return_stats[stats][:home][:players][k][i]
         i +=1
       end
+    else if
+      while i =<stats.length
+        return_stats[stats][:away][:players][k][i]
+        i +=1
+      end
+    end
+    k +=1
   end
 end
