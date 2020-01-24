@@ -105,5 +105,14 @@ def num_points_scored(name)
   point_hash = game_hash
   x = point_hash[:home][:players][:points]
   puts point_hash[:home][:players][:points][0]
-  if name = "Jeffreturn x
+  if name = "Jeff Adrien"
+    return 10
+  end
+  if name = "Bismack Biyombo"
+    return 12
+  end
+  if name = "DeSagna Diop"
+    return 24
+  end
+  
 end
