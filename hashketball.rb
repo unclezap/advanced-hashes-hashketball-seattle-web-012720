@@ -241,17 +241,17 @@ game_hash
   
   i = 0
   while i < 5
-    if b_high_pt < game_hash[:home][:players][i][:shoe]
-      b_biggest = game_hash[:home][:players][i][:shoe]
-      b_location = i
+    if b_high_pt < game_hash[:home][:players][i][:points]
+      b_high_pt = game_hash[:home][:players][i][:points]
+      b_index = i
     end
     i +=1
   end
   k = 0
   while k < 5
-    if c_biggest < game_hash[:away][:players][k][:shoe]
-      curr_biggest = game_hash[:away][:players][k][:shoe]
-      c_location = k
+    if c_high_pt < game_hash[:away][:players][k][:points]
+      c_high_pt = game_hash[:away][:players][k][:points]
+      c_index = k
     end
     k +=1
   end
