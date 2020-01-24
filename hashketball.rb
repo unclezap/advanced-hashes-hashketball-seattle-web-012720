@@ -303,7 +303,7 @@ def player_with_longest_name
   while k < 5
     float = game_hash[:away][:players][k][:player_name]
     if long_name.length < float.length
-      long_name = game_hash[:away][:players][k][player_name]
+      long_name = game_hash[:away][:players][k][:player_name]
     end
     k +=1
   end
