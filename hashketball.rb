@@ -114,6 +114,7 @@ h = 0
 query_name = game_hash[:away][:players][h][:player_name]
 if name == query_name
   query_points = game_hash[:away][:players][h][:points]
+  return query_points
 end
 return "backstop"
   if name == "Bismack Biyombo"
