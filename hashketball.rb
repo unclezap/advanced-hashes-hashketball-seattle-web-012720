@@ -143,11 +143,10 @@ end
 
 def team_colors(team)
   game_hash
-  k = 0
-  while k < 2
-    if team == game_hash[k][:team_name]
-    return game_hash[k][:colors]
-    end
-    k += 1
+  if team == game_hash[:home][:team_name]
+    return game_hash[:home][:colors]
+  end
+  if team == game_hash[:away][:team_name]
+    return game_hash[:away][:colors]
   end
 end
