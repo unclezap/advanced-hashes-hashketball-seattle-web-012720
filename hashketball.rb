@@ -95,7 +95,7 @@ def game_hash
   end
   
   game_hash = {}
-  game_hash = {home{}:,away:{}}
+  game_hash = {home:{},away:{}}
 
 puts game_hash
 return game_hash
