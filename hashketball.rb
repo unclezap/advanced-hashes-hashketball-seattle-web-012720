@@ -258,7 +258,7 @@ game_hash
   if b_high_pt > c_high_pt
     return game_hash[:home][:players][b_index][:player_name]
   else
-    return game_hash[:away][:players][c_location][:]
+    return game_hash[:away][:players][c_index][:player_name]
   end  
 
 end
