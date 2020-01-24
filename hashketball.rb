@@ -142,6 +142,10 @@ def shoe_size(name)
 end
 
 team_colors(team)
-k = 0
-
+  game_hash
+  k = 0
+  while k < 9
+    if team == game_hash[k]
+    
+  end
 end
