@@ -311,7 +311,7 @@ return long_name
 end
 
 def long_name_steals_a_ton
-game_hash
+  game_hash
   b_high_st = 0
   b_index = 0
   c_high_st = 0
@@ -326,6 +326,7 @@ game_hash
     end
     i +=1
   end
+  
   k = 0
   while k < 5
     if c_high_st < game_hash[:away][:players][k][:steals]
@@ -334,6 +335,7 @@ game_hash
     end
     k +=1
   end
+  
   if b_high_st > c_high_pt
     thief = game_hash[:home][:players][b_index][:player_name]
   else
@@ -345,4 +347,5 @@ game_hash
   else
     return false
   end
+
 end  
