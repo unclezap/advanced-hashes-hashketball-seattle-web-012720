@@ -169,4 +169,5 @@ def player_numbers(jersey_team)
       array.push(jersey)
       k +=1
     end
-  en
+  end
+end
