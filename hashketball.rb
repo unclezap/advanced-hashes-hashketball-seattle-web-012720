@@ -104,6 +104,6 @@ def num_points_scored(name)
   c_players = []
   c_players = game_hash[away][players]
   puts c_players
-  return 10
+  return points => 10
 
 end
