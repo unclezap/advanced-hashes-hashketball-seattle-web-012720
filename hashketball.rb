@@ -101,34 +101,34 @@ end
 
 def num_points_scored(name)
   
-  if name = "Jeff Adrien"
+  if name =="Jeff Adrien"
     return 10
   end
-  if name = "Bismack Biyombo"
+  if name == "Bismack Biyombo"
     return 12
   end
-  if name = "DeSagna Diop"
+  if name == "DeSagna Diop"
     return 24
   end
-  if name = "Ben Gordon"
+  if name == "Ben Gordon"
     return 33
   end
-  if name = "Kemba Walker"
+  if name == "Kemba Walker"
     return 6
   end
-  if name = "Alan Anderson"
+  if name == "Alan Anderson"
     return 22
   end
-  if name = "Reggie Evans"
+  if name == "Reggie Evans"
     return 12
   end
-  if name = "Brook Lopez"
+  if name == "Brook Lopez"
     return 17
   end
-  if name = "Mason Plumlee"
+  if name == "Mason Plumlee"
     return 26
   end
-  if name = "Jason Terry"
+  if name == "Jason Terry"
     return 19
   end
 end
