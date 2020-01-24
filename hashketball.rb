@@ -164,11 +164,17 @@ def player_numbers(jersey_team)
   array = []
   jersey = 0
   k = 0
-  if jersey_team == game_hash[:team_name]
+  if jersey_team == game_hash[:home][:team_name]
     while k < 5
       jersey = game_hash[:home][:players][k][:number]
       array.push(jersey)
       k +=1
+    end
+  else
+    while k < 5
+      jersey = game_hash[:home][:players][k][:number]
+      array.push(jersey)
+      k += 1
     end
   end
   return array
